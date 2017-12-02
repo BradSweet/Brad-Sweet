@@ -11,18 +11,23 @@
 
 Dark Background: 0B0C10;
 Light Background: 1F2833;
-Second Dark BG: 1A237E;
-Bright Text: 1565C0;
-Dark Text: 0D47A1;
-Text White: C5C6C7;
+Darker Highlight: 1A237E;
+Light Highlight: 0D47A1;
+Text: C5C6C7;
 
+Monochromatic:
 Dark Background: 0B0C10;
-Light Background: 40455C;
-Second Dark BG: 141A33;
-Bright Text: 242F5C;
-Dark Text: ;
-Text: 747FA9;
+Light Background: 1F2833;
+Darker Highlight: 1A237E;
+Light Highlight: 0D47A1;
+Text: C5C6C7;
 
+v2:
+Dark Background: 0B0C10;
+Light Background: 232633;
+Darker Highlight: 1A237E;
+Light Highlight: 0D47A1;
+Text: C5C6C7;
  */
 
 a { /* Hyperlink */
@@ -36,15 +41,15 @@ p { /* Paragraph */
 }
 
 body { /* Body */
-    background-color: #1F2833;
+    background-color: #232633;
 }
 
 h1 { /* Website Title - Brad Sweet  */
-	color:#0D47A1;
+	color:#232633;
 }
 
 h2 { /* Sub-titles */
-	color:#1565C0;
+	color:#0D47A1;
 	font-size: 130%;
 	margin: 10px 0;
 }
@@ -90,7 +95,7 @@ li { /* List dots */
 }
 
 .pop:hover {  /* Pop-effect */
-    box-shadow: 0px 0px 1px 2px #1565C0;
+    box-shadow: 0px 0px 1px 2px #0D47A1;
     transform: scale(1.05, 1.05);
 }
 
