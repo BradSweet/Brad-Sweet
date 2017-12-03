@@ -80,7 +80,7 @@ h3 { /* Minor-titles */
     margin: 10px;
 }
 
-.center-font {
+.center {
 	text-align: center;
 }
 
@@ -90,7 +90,7 @@ li { /* List dots */
 	margin: 0px 0;
 }
 
-.inline-div {
+.inline {
     display:inline-block;
 }
 
@@ -101,6 +101,16 @@ li { /* List dots */
 
 .navbar-menu { /* Bar-menu */
 	background-color: var(--text-highlight);
+}
+
+.bottombar {
+	background-color: var(--main-color);
+    border-color: var(--main-color);
+	position: fixed;
+    z-index: 100; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
 }
 
 .btn-navbar { /* Bar-menu-buttons */
@@ -123,8 +133,34 @@ li { /* List dots */
 	padding-bottom: 5px;
 }
 
+.tile { /* boxes */
+	background-color:var(--main-color);
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin:100px;
+}
+
 .pop:hover {  /* Pop-effect */
     box-shadow: 0px 0px 1px 2px var(--text-highlight);
     /* transform: scale(1.05, 1.05);*/
 }
 
+.link {
+	font-size: 150%;
+}
+
+.footer-hover {
+	background-color: var(--main-color);
+    border-color: var(--main-color);
+	position: fixed;
+    z-index: 100; 
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+}
+
+.footer {
+	background-color: var(--main-color);
+    border-color: var(--main-color);
+    width: 100%;
+}
