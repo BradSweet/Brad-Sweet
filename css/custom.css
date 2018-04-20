@@ -6,12 +6,17 @@
   background-color: var(--nav-bar);
 }
 
-/* change the brand and text color */
+/* change the brand text color */
 .navbar-top .navbar-brand {
   color: #ffffff;
 }
 
-/* change the link color */
+/* change the brand hover color */
+.navbar-top .navbar-brand:hover {
+  color: #ffffff;
+}
+
+/* change the links color */
 .navbar-top .navbar-nav .nav-link {
   color: #bfbfbf;
 }
@@ -34,6 +39,15 @@
 
 .navbar-bottom {
   background-color: var(--nav-bar);
+}
+
+/* change the links color */
+.navbar-bottom {
+  color: #bfbfbf;
+}
+
+.center-block {
+   text-align:center
 }
 
 .top-buffer {
