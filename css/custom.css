@@ -37,19 +37,15 @@
   color: #ffffff;
 }
 
-.navbar-bottom {
-  background-color: var(--nav-bar);
+.top-buffer {
+  margin-top:20px;
 }
 
 /* change the links color */
-.navbar-bottom {
+.custom-jumbotron .heading-color {
   color: #bfbfbf;
 }
 
-.center-block {
-   text-align:center
-}
-
-.top-buffer {
-  margin-top:20px;
+.navbar-bottom  {
+  background-color: var(--nav-bar);
 }
