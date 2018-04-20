@@ -49,4 +49,5 @@
 .navbar-bottom  {
   color: #bfbfbf;
   background-color: var(--nav-bar);
+  font-size: 70%;
 }
