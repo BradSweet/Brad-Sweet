@@ -51,3 +51,9 @@
   background-color: var(--nav-bar);
   font-size: 70%;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
